@@ -24,6 +24,10 @@ const navbarItems = [
         name: "Team",
         link: "/team",
     },
+    {
+        name: "Schedule",
+        link: "/schedule",
+    },
 
     {
         name: "Contact Us",
@@ -48,9 +52,9 @@ const Navbar = () => {
             <div
                 className={`bg-black text-white py-3 px-4 flex justify-between md:justify-between items-center flex-wrap sticky md:fixed w-full z-50 bg-opacity-50 top-0 backdrop-blur-lg ${roboto.className}`}
             >
-                {/* <Link className="flex items-center justify-center" href={`/`}>
-                    <Image src="/logo.png" width={200} height={50} />
-                </Link> */}
+                <Link className="flex items-center justify-center" href={`/`}>
+                    <Image src="/logo.png" width={200} height={50} className="h-20" />
+                </Link>
 
                 {/* Menu button for mobile devices */}
                 <div className="md:hidden">

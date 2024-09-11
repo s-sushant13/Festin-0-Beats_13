@@ -25,20 +25,20 @@ const page = () => {
     
 
     <div>
-        <div className='mt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 md:mt-24 my-6 '>
+        <div className='mt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 md:mt-32 my-6 '>
             <div className={`text-5xl `}>
                 Our Events
             </div>
 
             <div className='text-gray-400 text-lg mt-1'>
-                We are all about fun and joy have a glance at some of our past and ongoing events...
+                Check out all the amazing events we have in store for you!
             </div>
         </div>
         <div className=' mx-10 md:mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 flex flex-wrap gap-8'>
             {PastEvents.map((event) => (
-                <div key={event.id} className=' border-[1px] border-gray-300 w-fit p-1 rounded-3xl'>
+                <div key={event.id} className='  w-fit p-8 bg-[#1f1f1f] rounded-3xl'>
                     <div>
-                        <img src={event.img} alt='err' className='w-72 aspect-square object-cover rounded-3xl justify-center flex items-center mx-auto saturate-50 hover:saturate-100 transition-all'/>
+                        <img src={event.img} alt='err' className='w-80  aspect-square object-cover rounded-3xl justify-center flex items-center mx-auto saturate-50 hover:saturate-100 transition-all'/>
                     </div>
 
                     <div className='my-5 text-black px-2'>
@@ -68,6 +68,9 @@ const page = () => {
             ))}
         </div>
     </div>
+
+
+
 </>
   )
 }
