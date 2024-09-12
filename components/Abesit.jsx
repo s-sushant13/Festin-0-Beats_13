@@ -30,7 +30,7 @@ const ABESIT = () => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className={`text-6xl bg-[url(/aboutAbesit.png)] bg-cover md:bg-cover bg-no-repeat flex flex-col justify-center items-center w-full py-20 gap-10 `}
+            className={`text-6xl bg-[url(/ml.webp)] bg-cover md:bg-cover bg-no-repeat flex flex-col justify-center items-center w-full py-20 gap-10 `}
             id="about"
         >
             <div className="flex flex-row-reverse">

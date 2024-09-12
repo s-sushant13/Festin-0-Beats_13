@@ -125,7 +125,7 @@ export default function Hero() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1.5 }}
-                className="bg-[url(/newTop.png)] bg-cover bg-center md:bg-cover bg-no-repeat h-screen flex justify-center items-center transition-all"
+                className="bg-[url(/Hero.webp)] bg-cover bg-center md:bg-cover bg-no-repeat h-screen flex justify-center items-center transition-all"
             >
                 <div className="bg-gradient-to-t from-black to-transparent md:bg-gradient-to-r md:from-black md:to-transparent h-screen w-screen flex flex-col md:flex-row items-center justify-around mx-auto">
                     <div className="text-white flex flex-col mt-20 items-center md:items-start gap-5">
