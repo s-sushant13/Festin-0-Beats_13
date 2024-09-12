@@ -1,5 +1,9 @@
 
+import ABESIT from "@/components/Abesit";
+import About from "@/components/About";
+import Glimpse from "@/components/Glimpse";
 import Hero from "@/components/Hero";
+import PastYearFacts from "@/components/PastFacts";
 import Head from "next/head";
 
 export default function Home() {
@@ -8,12 +12,13 @@ export default function Home() {
       <Head>
         <title>Festin-O-beats</title>
         <meta name="description" content="Unleash the rhythm, ignite the spirit—Festin-O-Beats, where the beat never stops!" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <main>
         <Hero />
-       
-      
+        <ABESIT/>
+        <About/>
+        <Glimpse/>
+        <PastYearFacts/>
       </main>
     </>
 

@@ -53,7 +53,7 @@ const Navbar = () => {
                 className={`bg-black text-white py-3 px-4 flex justify-between md:justify-between items-center flex-wrap sticky md:fixed w-full z-50 bg-opacity-50 top-0 backdrop-blur-lg ${roboto.className}`}
             >
                 <Link className="flex items-center justify-center" href={`/`}>
-                    <Image src="/logo.png" width={200} height={50} className="h-20" />
+                    <Image src="/logo.png" width={150} height={50} className="h-16" />
                 </Link>
 
                 {/* Menu button for mobile devices */}
