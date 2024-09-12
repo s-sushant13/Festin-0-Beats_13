@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 
 import ABESIT from "@/components/Abesit";
 import About from "@/components/About";

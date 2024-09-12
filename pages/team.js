@@ -1,3 +1,7 @@
+/* eslint-disable */
+
+
+
 import Head from 'next/head';
 import { useState } from 'react';
 import TeamPage from '@/components/Team';

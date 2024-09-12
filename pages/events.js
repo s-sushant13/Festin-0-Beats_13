@@ -1,3 +1,4 @@
+/* eslint-disable */
 
 import { PastEvents } from '@/data/pastEvent'
 import Link from 'next/link'

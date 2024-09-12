@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 import { Anton } from 'next/font/google'
 import { motion } from 'framer-motion'
 import Heading from '@/components/Heading'

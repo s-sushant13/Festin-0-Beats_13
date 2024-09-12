@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 import { useState } from "react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";

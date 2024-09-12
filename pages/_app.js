@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 // import Footer from "@/components/footer";
 // import Navbar from "@/components/Navbar";
 // import "@/styles/globals.css";

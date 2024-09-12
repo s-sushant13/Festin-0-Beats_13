@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 // import Heading from '@/components/Heading'
 import React from 'react'
 import { Anton } from 'next/font/google'

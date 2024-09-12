@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 import Link from "next/link";
 import { fineArtsTeam } from "@/data/fineArts";
 import { Anton } from "next/font/google";

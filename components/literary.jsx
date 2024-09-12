@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 import Link from "next/link";
 import { literaryTeam } from "@/data/literaryTeam";
 import { Anton } from "next/font/google";

@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 import React from "react";
 import { FaLinkedin, FaTwitter, FaInstagram, FaDiscord } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";

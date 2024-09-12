@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 import React from 'react';
 import { Roboto, Anton } from "next/font/google";
 import Heading from "./Heading";

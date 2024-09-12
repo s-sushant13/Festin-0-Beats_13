@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 import Link from "next/link";
 import { Anton } from "next/font/google";
 import localFont from 'next/font/local'

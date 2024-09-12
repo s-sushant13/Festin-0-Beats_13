@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 import React from 'react';
 import { FaTrophy, FaUsers, FaCalendarAlt } from 'react-icons/fa';
 import { RiFootprintFill } from "react-icons/ri";

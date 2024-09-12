@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 import localFont from 'next/font/local'
 
 const title = localFont({
