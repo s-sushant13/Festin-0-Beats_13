@@ -4,10 +4,11 @@ import localFont from 'next/font/local'
 
 
 import TechnicalHead from "./TechHead";
-import Core from "./creative";
+import Core from "./core";
 import Cultural from "./cultural";
 import Literary from "./literary";
 import Technical from "./technical";
+import FineArts from "./fineArts";
 
 const pricedown = localFont({
     src: './../assets/fonts/pricedown.ttf',
@@ -26,6 +27,7 @@ const TeamPage = () => {
             <Cultural />
             <Literary />
             <Technical />
+            <FineArts />
 
         </div>
     );

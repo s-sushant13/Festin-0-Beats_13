@@ -1,6 +1,9 @@
+/* eslint-disable */
+
+
 import Link from "next/link";
 
-import { coreTeam } from "@/data/CoreTeam";
+import { technicalTeam } from "@/data/technicalTeam";
 import { Anton } from "next/font/google";
 import localFont from 'next/font/local'
 import { FaLinkedin } from "react-icons/fa";
@@ -22,7 +25,7 @@ const Technical = () => {
             <Heading>Technical Team</Heading>
             <section className="w-full mx-auto">
                 <div className="grid md:grid-cols-3">
-                    {coreTeam.map((member, index) => (
+                    {technicalTeam.map((member, index) => (
                         <motion.div
                             initial={{ opacity: 0, y: 40 }}
                             whileInView={{ opacity: 1, y: 0 }}

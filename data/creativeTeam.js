@@ -1,18 +1,14 @@
 export const creativeTeam = [
     {
-        name: "Kanishak Chaurasia",
-        img: "https://media.licdn.com/dms/image/D4D03AQGI47iFdBiWaw/profile-displayphoto-shrink_400_400/0/1708961934768?e=1718236800&v=beta&t=Wni6MQLijTokb_6gizq5xNXlV04Mod8suLTq_EIYYZ8",
-        linkedin: "https://www.linkedin.com/in/dappdost/",
+        name: "Kratika Saraswat ",
+        img: "https://media.licdn.com/dms/image/v2/D5603AQFfTHv-FfhJ4w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715435148935?e=1731542400&v=beta&t=WaV2MeH_IOHvclDThxoQuPVpehVOn4GgYVmEMnn9jqc",
+        linkedin: "https://www.linkedin.com/in/kratikasaraswatt1912/",
     },
     {
-        name: "Sushant Sharma",
-        img: "https://media.licdn.com/dms/image/C4D03AQEJ5hCqADM_jw/profile-displayphoto-shrink_400_400/0/1662690037207?e=1718236800&v=beta&t=4CQgohfhc-fkz6f5RV0-kDitGF7dUxwT048mtnPoOjA",
-        linkedin: "https://www.linkedin.com/in/sushant2021cs101/",
+        name: "Keshav Bajaj",
+        img: "https://media.licdn.com/dms/image/v2/D5603AQHBagWd_ZxTPw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707132260858?e=1731542400&v=beta&t=QGtehMHlXBPa9shGtyjGx137D4qjflpUQNGXrQJ2Ym8",
+        linkedin: "https://www.linkedin.com/in/keshav-bajaj-15b4181a8/",
     },
-    {
-        name: "Keshav Malik",
-        img: "https://media.licdn.com/dms/image/D4D03AQG9vtrD6mOn1A/profile-displayphoto-shrink_400_400/0/1689511881436?e=1718236800&v=beta&t=YCLtES_4AoLSOcJ-dMLaa0Be2HFZjJ9ZD0WeK33OQMQ",
-        linkedin: "https://www.linkedin.com/in/keshavmalik/",
-    },
+    
 
 ]

@@ -1,6 +1,5 @@
 import Link from "next/link";
-
-import { coreTeam } from "@/data/CoreTeam";
+import { mainTeam } from "@/data/mainTeam";
 import { Anton } from "next/font/google";
 import localFont from 'next/font/local'
 import { FaLinkedin } from "react-icons/fa";
@@ -22,7 +21,7 @@ const Core = () => {
             <Heading>Core Team</Heading>
             <section className="w-full mx-auto">
                 <div className="grid md:grid-cols-3">
-                    {coreTeam.map((member, index) => (
+                    {mainTeam.map((member, index) => (
                         <motion.div
                             initial={{ opacity: 0, y: 40 }}
                             whileInView={{ opacity: 1, y: 0 }}

@@ -53,101 +53,106 @@ const Tabs = () => {
                         {activeTab === 'Organisers' && (
                             <div className="w-full mx-auto flex flex-col items-center gap-6">
                                 <div className='bg-gray-900 mx-auto rounded-md my-3 w-full py-3'>
-                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Chief Patron</p>
+                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Mentor</p>
                                     <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
-                                        <h2 className="text-xl font-bold text-franklin-green">Sh. Ashu Goel</h2>
-                                        <p className="text-sm text-michael-blue">Chairman, ABESIT, Ghaziabad</p>
+                                        <h2 className="text-xl font-bold text-franklin-green">Prof. (Dr.) Subodh Kumar Sharma</h2>
+                                        <p className="text-sm text-michael-blue">Dean Student Welfare</p>
                                     </div>
                                 </div>
                                 <div className='bg-gray-900 mx-auto rounded-md my-3 w-full py-3'>
-                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Patron</p>
+                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Convener</p>
                                     <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
-                                        <h2 className="text-xl font-bold text-franklin-green">Prof. (Dr.) M.K. Jha</h2>
-                                        <p className="text-sm text-michael-blue">Director, ABESIT, Ghaziabad</p>
+                                        <h2 className="text-xl font-bold text-franklin-green">Dr. Aakansha Garg</h2>
+                                        <p className="text-sm text-michael-blue">Assistant Professor - AS&H</p>
                                     </div>
                                 </div>
                                 <div className='bg-gray-900 w-full mx-auto rounded-md my-3 py-3'>
-                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Advisor</p>
+                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Core Committee</p>
                                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
                                         <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Prof. (Dr.) Upasana Pandey</h2>
-                                            <p className="text-sm text-michael-blue">Dean Academics</p>
+                                            <h2 className="text-xl font-bold text-franklin-green">Dr. Mitul Sarkar</h2>
+                                            <p className="text-sm text-michael-blue">Associate Professor - AS&H</p>
                                         </div>
                                         <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Prof. (Dr.) Subodh Kumar Sharma</h2>
-                                            <p className="text-sm text-michael-blue">Dean Student Welfare</p>
+                                            <h2 className="text-xl font-bold text-franklin-green">Dr. Neeti Srivastav</h2>
+                                            <p className="text-sm text-michael-blue">Associate Professor - Pharmacy</p>
                                         </div>
                                         <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Prof. (Dr.) Manjul Pratap Singh</h2>
-                                            <p className="text-sm text-michael-blue">Principal - Pharmacy</p>
+                                            <h2 className="text-xl font-bold text-franklin-green">Dr. Nisha Singh</h2>
+                                            <p className="text-sm text-michael-blue">Associate Professor - AS&H</p>
+                                        </div>
+                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
+                                            <h2 className="text-xl font-bold text-franklin-green">Prof. Kaushal Gupta</h2>
+                                            <p className="text-sm text-michael-blue">Associate Professor - AS&H</p>
+                                        </div>
+                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
+                                            <h2 className="text-xl font-bold text-franklin-green">Prof. Neetu Narang Mahajan</h2>
+                                            <p className="text-sm text-michael-blue">Assistant Professor - MCA</p>
+                                        </div>
+                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
+                                            <h2 className="text-xl font-bold text-franklin-green">Prof. Arjun Singh</h2>
+                                            <p className="text-sm text-michael-blue">Assistant Professor - Pharmacy</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className='bg-gray-900 w-full mx-auto rounded-md my-3 py-3'>
-                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Convener</p>
+                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Cultural Event Coordinator</p>
                                     <div className='flex flex-wrap justify-center items-center gap-4'>
                                         <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Prof. (Dr.) Hoshiyar Singh Kanyal</h2>
-                                            <p className="text-sm text-michael-blue">HOD - CSE</p>
+                                            <h2 className="text-xl font-bold text-franklin-green">Dr. Neeti Srivastav</h2>
+                                            <p className="text-sm text-michael-blue">Associate Professor - Pharmacy</p>
                                         </div>
                                         <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Prof. (Dr.) Sanjeev Kumar</h2>
-                                            <p className="text-sm text-michael-blue">HOD - CSE (AI & IoT)</p>
+                                            <h2 className="text-xl font-bold text-franklin-green">Dr. Dolly Sharma</h2>
+                                            <p className="text-sm text-michael-blue">Associate Professor - AS&H</p>
                                         </div>
-                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Prof. Sumit Kumar</h2>
-                                            <p className="text-sm text-michael-blue">HOD - CSE (DS) & IT</p>
-                                        </div>
-                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Prof. (Dr.) Sheelesh Kumar Sharma</h2>
-                                            <p className="text-sm text-michael-blue">HOD - MCA</p>
-                                        </div>
-                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Prof. (Dr.) Kaushal Kishor</h2>
-                                            <p className="text-sm text-michael-blue">Professor - IT</p>
-                                        </div>
+                                       
                                     </div>
                                 </div>
-                                <div className='bg-gray-900 mx-auto w-full rounded-md my-3 py-3'>
-                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Co-Convener</p>
-                                    <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
-                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Dr. Sandeep Kumar</h2>
-                                            <p className="text-sm text-michael-blue">Associate Professor - CSE</p>
+                                
+                                      <div className='bg-gray-900 w-full mx-auto rounded-md my-3 py-3'>
+                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Fine Arts & Photography Event Coordinator</p>
+                                    <div className='flex flex-wrap justify-center items-center gap-4'>
+                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
+                                        <h2 className="text-xl font-bold text-franklin-green">Dr. Nisha Singh</h2>
+                                        <p className="text-sm text-michael-blue">Associate Professor - AS&H</p>
                                         </div>
-                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
+                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
+                                        <h2 className="text-xl font-bold text-franklin-green">Dr. Anjali Saxena</h2>
+                                        <p className="text-sm text-michael-blue">Associate Professor - AS&H</p>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+
+
+                                
+                                <div className='bg-gray-900 w-full mx-auto rounded-md my-3 py-3'>
+                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Technical Event Coordinator</p>
+                                    <div className='flex flex-wrap justify-center items-center gap-4'>
+                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
                                             <h2 className="text-xl font-bold text-franklin-green">Mr. Avdhesh Kumar Tiwari</h2>
                                             <p className="text-sm text-michael-blue">Assistant Professor - CSE</p>
                                         </div>
-                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Mr. Satyendra Singh</h2>
-                                            <p className="text-sm text-michael-blue">Assistant Professor - CSE</p>
+                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
+                                            <h2 className="text-xl font-bold text-franklin-green">Ms. Meena Kumari</h2>
+                                            <p className="text-sm text-michael-blue">Assistant Professor - CSE(IoT)</p>
                                         </div>
+                                       
                                     </div>
                                 </div>
                                 <div className='bg-gray-900 w-full mx-auto rounded-md my-3 py-3'>
-                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Faculty Co-ordinator</p>
+                                    <p className={`text-3xl text-center font-bold text-trevor-orange`}>Literary Event Coordinator</p>
                                     <div className='flex flex-wrap justify-center items-center gap-4'>
                                         <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Dr. Tapan Kant</h2>
-                                            <p className="text-sm text-michael-blue">Associate Professor - CSE (AI)</p>
+                                            <h2 className="text-xl font-bold text-franklin-green">Dr. Kanika Taneja</h2>
+                                            <p className="text-sm text-michael-blue">Professor - CSE(DS)</p>
                                         </div>
                                         <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Mr. Raj Kishor Verma</h2>
-                                            <p className="text-sm text-michael-blue">Assistant Professor - CSE (DS)</p>
+                                            <h2 className="text-xl font-bold text-franklin-green">Dr. Rajeev Rajput</h2>
+                                            <p className="text-sm text-michael-blue">Assistant Professor - AS&H</p>
                                         </div>
-                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Ms. Akanksha Bana</h2>
-                                            <p className="text-sm text-michael-blue">Assistant Professor - CSE (DS)</p>
-                                        </div>
-                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Ms. Meena Kumari</h2>
-                                            <p className="text-sm text-michael-blue">Assistant Professor - IoT</p>
-                                        </div>
-                                        <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
-                                            <h2 className="text-xl font-bold text-franklin-green">Mr. Ramjee Dixit</h2>
-                                            <p className="text-sm text-michael-blue">Assistant Professor - MCA</p>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>

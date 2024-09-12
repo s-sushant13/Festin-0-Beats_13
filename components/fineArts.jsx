@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { creativeTeam } from "@/data/creativeTeam";
-
+import { fineArtsTeam } from "@/data/fineArts";
 import { Anton } from "next/font/google";
 import localFont from 'next/font/local'
 import { FaLinkedin } from "react-icons/fa";
@@ -16,13 +15,13 @@ const anton = Anton({
     weight: ["400"],
 });
 
-const Creative = () => {
+const FineArts = () => {
     return (
         <div>
-            <Heading>Creative Heads</Heading>
+            <Heading>Fine Arts & Photography</Heading>
             <section className="w-full mx-auto">
                 <div className="grid md:grid-cols-3">
-                    {creativeTeam.map((member, index) => (
+                    {fineArtsTeam.map((member, index) => (
                         <motion.div
                             initial={{ opacity: 0, y: 40 }}
                             whileInView={{ opacity: 1, y: 0 }}
@@ -54,4 +53,4 @@ const Creative = () => {
     );
 }
 
-export default Creative;
+export default FineArts;
