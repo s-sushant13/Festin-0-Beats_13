@@ -28,27 +28,7 @@ const pricedown = localFont({
 
 const About = () => {
     return (
-        // <motion.div
-        //     initial={{ opacity: 0 }}
-        //     whileInView={{ opacity: 1 }}
-        //     transition={{ duration: 0.5 }}
-        //     viewport={{ once: true }}
-        //     className={`text-6xl bg-[url(/about.jpg)] bg-cover md:bg-cover bg-no-repeat flex flex-col justify-center items-center w-full  py-20 gap-10`}
-        //     id="about"
-        // >
-        //     <div className="flex">
-        //         <Heading>What is Feastin-O-Beats 13.0</Heading>
-        //     </div>
 
-        //     <div className="flex justify-center max-w-[50%]  flex-col gap-2">
-        //         <span className="text-lg font-medium text-center ">
-        //             The College Annual Fest is a celebration that allows your creativity to take flight, helping you discover your potential as a performer while unveiling hidden talents in a variety of forms. The festive atmosphere draws students from various colleges to a shared platform designed to boost confidence in numerous ways. Whether it's leadership, teamwork, organization, collaboration, or cultural exchange, Festin-O-Beats 13.0 embodies it all with flair. We warmly invite you to be part of the excitement and contribute to making this year's event as successful as ever!
-        //         </span>
-
-        //     </div>
-
-
-        // </motion.div>
 
 
         <motion.div
@@ -73,3 +53,4 @@ const About = () => {
 };
 
 export default About;
+

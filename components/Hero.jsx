@@ -33,95 +33,6 @@ export default function Hero() {
 
     return (
         <>
-            {/* <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 1.5 }}
-                className={`bg-[url(/newTop.png)] bg-cover bg-center md:bg-cover bg-no-repeat h-screen flex justify-center items-center transition-all `}
-            >
-
-                <div className="bg-gradient-to-t from-black to-transparent md:bg-gradient-to-r md:from-black md:to-transparent h-screen w-screen flex flex-col md:flex-row items-center justify-around mx-auto">
-                    <div className="text-white flex flex-col mt-20 items-center md:items-start gap-5">
-                        <div className="flex flex-col">
-
-
-
-                            <motion.div
-                                initial={{ opacity: 0, y: 50 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.4, delay: 0.5 }}
-                            >
-                                <img
-                                    src="/logo.png"
-                                    width={300}
-                                    height={10}
-                                    className="mx-auto h-48 w-96"
-                                />
-                            </motion.div>
-
-
-                            <motion.div
-                                initial={{ opacity: 0, y: 50 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.4, delay: 1.1 }}
-                                className="flex flex-col md:flex-row gap-3 mt-5 mx-auto md:mx-0">
-
-                                <div className="w-32 mx-auto md:mx-0" >
-                                    <p className={`md:text-lg text-center ${anton.className}`}>
-                                        Organised by
-                                    </p>
-                                    <img src="/newlogo.webp" alt="8-9 oct" />
-                                </div>
-                            </motion.div>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div className="bg-black p-3 bg-opacity-40 backdrop-blur-lg rounded-lg">
-                        <div className={`flex justify-center text-center items-center ${rubik.className}`}>
-                            <div className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold px-4 py-2">
-                                Registration<br />
-                                Open!!
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-
-
-
-                <motion.div
-                    initial={{ opacity: 0, x: 50 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.4, delay: 1.5 }}
-                    className="absolute bottom-10 right-10 md:flex hidden flex-col gap-2"
-                >
-                    <div className={`text-xl ${anton.className}`}>Follow Us</div>
-
-                    <div className="flex gap-7">
-                        <Link href="https://twitter.com/hacknovate" target="_blank">
-                            <FaTwitter className="" size={25} />
-                        </Link>
-                        <Link
-                            href="https://www.linkedin.com/company/hacknovate/about/"
-                            target="_blank"
-                        >
-                            <FaLinkedin className="" size={25} />
-                        </Link>
-                        <Link
-                            href="https://www.instagram.com/hacknovate.abesit/"
-                            target="_blank"
-                        >
-                            <FaInstagram className="" size={25} />
-                        </Link>
-                    </div>
-                </motion.div>
-            </motion.div > */}
 
 
             <motion.div
@@ -180,21 +91,6 @@ export default function Hero() {
                     <div className={`text-xl ${anton.className}`}>Follow Us</div>
 
                     <div className="flex gap-7">
-                        {/* <Link href="https://twitter.com/hacknovate" target="_blank">
-                            <FaTwitter className="" size={25} />
-                        </Link>
-                        <Link
-                            href="https://www.linkedin.com/company/hacknovate/about/"
-                            target="_blank"
-                        >
-                            <FaLinkedin className="" size={25} />
-                        </Link>
-                        <Link
-                            href="https://www.instagram.com/hacknovate.abesit/"
-                            target="_blank"
-                        >
-                            <FaInstagram className="" size={25} />
-                        </Link> */}
 
 
                         <Link href="https://www.facebook.com/abesit.in">
@@ -214,3 +110,5 @@ export default function Hero() {
         </>
     );
 }
+
+

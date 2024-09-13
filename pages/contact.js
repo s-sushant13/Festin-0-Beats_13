@@ -42,14 +42,16 @@ const anton = Anton({
 })
 
 const studentCoordinators = [
-    { name: "Anshul Shekhar", phone: "+91 9470218939" },
     { name: "Tanishq Sharma", phone: "+91 8791461700" },
     { name: "Arjun Dhawan", phone: "+91 9634314903" },
-    { name: "Prabhuti Vashisth ", phone: "+91 8860494166" },
+    { name: "Prabhuti Vashisth ", phone: "+91 6390162911" },
     { name: "Siddhant Srivastava", phone: "+91 7080456708" },
+    { name: "Anshul Shekhar", phone: "+91 9470218939" },
+
 ];
 
 const facultyCoordinators = [
+    
     { name: "Dr. Aakansha Garg" , phone: "Assistant Professor - AS&H" },
  
 ]

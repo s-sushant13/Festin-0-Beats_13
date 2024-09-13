@@ -21,7 +21,7 @@ const anton = Anton({
 const Cultural = () => {
     return (
         <div>
-            <Heading>Cultural Team</Heading>
+            <Heading>Cultural Event Team</Heading>
             <section className="w-full mx-auto">
                 <div className="grid md:grid-cols-3">
                     {culturalTeam.map((member, index) => (

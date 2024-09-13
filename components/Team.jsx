@@ -12,6 +12,7 @@ import Cultural from "./cultural";
 import Literary from "./literary";
 import Technical from "./technical";
 import FineArts from "./fineArts";
+import Creative from "./creative";
 
 const pricedown = localFont({
     src: './../assets/fonts/pricedown.ttf',
@@ -25,8 +26,10 @@ const anton = Anton({
 const TeamPage = () => {
     return (
         <div className=" flex flex-col gap-5">
-            <TechnicalHead />
+
             <Core />
+            <TechnicalHead />
+            <Creative />
             <Cultural />
             <Literary />
             <Technical />

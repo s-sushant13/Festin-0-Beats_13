@@ -21,7 +21,7 @@ const anton = Anton({
 const FineArts = () => {
     return (
         <div>
-            <Heading>Fine Arts & Photography</Heading>
+            <Heading>Fine Arts & Photography Event Heads</Heading>
             <section className="w-full mx-auto">
                 <div className="grid md:grid-cols-3">
                     {fineArtsTeam.map((member, index) => (

@@ -22,7 +22,7 @@ const anton = Anton({
 const Creative = () => {
     return (
         <div>
-            <Heading>Creative Heads</Heading>
+            <Heading>Creative Event Heads</Heading>
             <section className="w-full mx-auto">
                 <div className="grid md:grid-cols-3">
                     {creativeTeam.map((member, index) => (
