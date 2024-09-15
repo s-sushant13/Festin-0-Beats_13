@@ -21,7 +21,7 @@ const anton = Anton({
 const Literary = () => {
     return (
         <div>
-            <Heading>Literary Event Head</Heading>
+            <Heading>Literary Event Heads</Heading>
             <section className="w-full mx-auto">
                 <div className="grid md:grid-cols-3">
                     {literaryTeam.map((member, index) => (

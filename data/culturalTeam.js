@@ -1,7 +1,7 @@
 export const culturalTeam = [
     {
         name: "Yogesh Narayan",
-        img: "https://media.licdn.com/dms/image/v2/D5635AQGoEyWhBPwcvg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1726151412505?e=1726761600&v=beta&t=Ar5Nuv-IeS5lLFYkUyE2sXP8lTeVyFKY4EaWHYwmuUs",
+        img: "https://media.licdn.com/dms/image/v2/D5603AQHwT_kPK0gEiQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726151410634?e=1732147200&v=beta&t=botSsBmhJl5vkNTdPuzBf3-V8RAFs3GPpKqG5zaj6VY",
         linkedin: "https://www.linkedin.com/in/yogesh-narayan-85b68223b/",
     },
     {

@@ -148,7 +148,7 @@ const Navbar = () => {
                     ))}
                     <div className="py-3 flex justify-center">
                         <Link
-                            href="mailto:hacknovate@abesit.edu.in"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSf4Wc0E7Cagix2NQnzGaWpeHkqzTCTK0uiOwdii9BuvFp23SQ/viewform"
                             className="text-center mx-auto mt-2 md:mx-0"
                         >
                             <button className="relative inline-flex h-8 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
