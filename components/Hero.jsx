@@ -62,11 +62,22 @@ export default function Hero() {
                                 transition={{ duration: 0.4, delay: 1.1 }}
                                 className="flex flex-col md:flex-row gap-3 mt-5 mx-auto md:mx-0"
                             >
+
+
+
                                 <div className="w-24 sm:w-28 md:w-32 mx-auto md:mx-0">
                                     <p className={`text-sm md:text-lg text-center ${anton.className}`}>
                                         Organised by
                                     </p>
                                     <img src="/newlogo.webp" alt="8-9 oct" className="w-full" />
+
+                                </div>
+
+                                <div className="w-50 mx-auto md:mx-0 boder p-3  " >
+                                    <p className={`md:text-4xl text-center ${anton.className} text-[#EAC885]`}>
+                                        On 8-9 oct'24
+                                    </p>
+
                                 </div>
                             </motion.div>
                         </div>
@@ -93,6 +104,11 @@ export default function Hero() {
                     <div className="flex gap-7">
 
 
+                        <Link href="https://www.instagram.com/festinobeats13.0/">
+                            <FaInstagram className="" size={25} />
+                        </Link>
+
+
                         <Link href="https://www.facebook.com/abesit.in">
 
                             <FaFacebook className="" size={25} />
@@ -101,9 +117,7 @@ export default function Hero() {
                             <FaLinkedin className="" size={25} />
                         </Link>
 
-                        <Link href="https://www.instagram.com/abesit_ghaziabad/?hl=en">
-                            <FaInstagram className="" size={25} />
-                        </Link>
+
                     </div>
                 </motion.div>
             </motion.div>

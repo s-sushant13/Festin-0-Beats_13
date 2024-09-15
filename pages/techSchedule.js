@@ -11,70 +11,55 @@ const anton = Anton({
  
 const data = [
   {
-    "ques": "RANG TARANG/ RANGOLI",
-    "ans": "• No. of participants: 2 member\n• Time: 1 hour\n• Participants are required to bring their own colours accordingly.\n• Theme will be disclosed 30 minutes before the competition.\n• Only powdered colours are allowed.\n• No patterns are allowed.\n• Mobile phone is not allowed."
+    "ques": "TECHNICAL POSTER (Techxhibit)",
+    "ans": "• Individual Participation\n• Subject matter must address a technical, economic, environmental, or sustainability aspect of engineering.\n• Poster size: 48 inches x 36 inches.\n• No mechanical/electrical devices attached to the poster.\n• No materials should be placed around or on top of the poster.\n• Time for poster design: 1 hour."
   },
   {
-    "ques": "HENNA HARMONY/ MEHNDI",
-    "ans": "• No. of participants: 1 member\n• Time: 1 hour\n• Participants are required to bring their own mehndi.\n• The mehndi must cover one hand covering both sides of the palm.\n• The mehndi must extend up to the wrist.\n• Participants are required to bring their own partner on whose hand the mehndi will be done.\n• High lighteners are not allowed.\n• Mobile phone is not allowed."
+    "ques": "TREASURE HUNT (Techsplore)",
+    "ans": "• Team size: 4 members\n• Round 1: Solve questions in 10 minutes\n• Round 2: Solve clues, first 5 teams advance\n• Round 3: First 3 teams to find the treasure win.\n• No electronic devices allowed\n• Misbehavior leads to disqualification."
   },
   {
-    "ques": "COLLACOMBO /COLLAGE MAKING",
-    "ans": "• No. of participants: 2 members\n• Theme will be Role of Theater in Society.\n• Time: 1 hour\n• Participants are required to bring their own material, only chart paper will be provided.\n• Participants will have to portray their collage to the judges at the end of the competition.\n• NOTE: ONLY NEWSPAPER CUTTINGS ARE ALLOWED (Print outs, cuttings from Magazines etc. are not allowed.)\n• Mobile phone is not allowed."
+    "ques": "E-GO-GREEN (Eco-Innovate)",
+    "ans": "• Individual participation\n• Present an idea to save the Earth using renewable resources or replacing pollutants.\n• Time duration: 1 hour\n• Presentation should be inspired by nature.\n• No pre-made materials allowed."
   },
   {
-    "ques": "COLORFUL STILLNESS/ POSTER MAKING",
-    "ans": "• No. of participants: 1 member\n• Participants will be given a theme before 15 minutes.\n• Duration will not be more than 60 Minutes.\n• Participants should bring their own materials.\n• College will provide drawing paper/ sheet.\n• Mobile Phone is not allowed."
+    "ques": "WORKING MODEL EXHIBITION (Protype Parade)",
+    "ans": "• Team size: 2 members\n• Models must be semi-automatic or fully automatic.\n• Themes: Solid Waste Segregation System, Modern Traffic Control, Optimum Energy Management\n• Model size: 1x1x1 m\n• Time duration: 1.5 hours."
   },
   {
-    "ques": "A BRUSH WITH MAGIC/ FACE PAINTING",
-    "ans": "• No. of participants: 2 members\n• Time: 45 minutes\n• Participants are required to bring their own colours.\n• Participants are required to bring their partner on whose face the painting will be done.\n• Mobile Phone is not allowed."
+    "ques": "FRUGAL ENGINEERING (Jugad Junction)",
+    "ans": "• Team size: Maximum 3 members\n• Bring your own material\n• Create a cost-efficient or complexity-reducing product.\n• Scrap material allowed for decoration.\n• Time duration: 60 minutes."
   },
   {
-    "ques": "POTTERY: REDEFINING COOLNESS/POT PAINTING",
-    "ans": "• No. of participants: 1 member\n• Time: 1 hour 30 minutes\n• Participants are required to bring their own material for decoration, colours etc.\n• Pots will be provided by the college.\n• Mobile Phone is not allowed.\n\nNOTE: Maximum 15 participants are allowed which will be based on first come first basis."
+    "ques": "TECHNICAL QUIZ (Quizdom)",
+    "ans": "• Individual participation\n• Quiz on CS/IT/AI/DS/IoT, ECE, ME\n• 2 rounds: Round 1: 40 MCQs (20 min), Round 2: 20 MCQs (10 min)\n• No negative marking\n• Winner based on maximum correct answers in the shortest time."
   },
   {
-    "ques": "CRAFTY MINDS/ BEST OUT OF SCRAP",
-    "ans": "• No. of participants: 2 members\n• Time: 1 hour\n• Participants will be free to choose the theme.\n• Participants are required to bring their own waste material and other required items.\n• Mobile Phone is not allowed."
+    "ques": "GLIDERS (Aero Acrobats)",
+    "ans": "• Team size: 2 members\n• Materials provided by the committee\n• Judging based on time of flight, displacement, and design\n• Glider size: 15x15 inches."
   },
   {
-    "ques": "RID THE FLAME/ COOK WITHOUT FIRE",
-    "ans": "• No. of participants per team: 2 members\n• Time: 1 hour\n• Participants are required to bring their own material as per their requirement.\n• Boiled food from home is not allowed (like boiled potatoes, boiled dal etc.)"
+    "ques": "BRIDGE CHALLENGE (Structura)",
+    "ans": "• Team size: 2 members\n• Build a truss bridge using Popsicle sticks and Fevicol\n• Bridge size: Length - 56-60cm, Width - 10-11cm, Height - 12-16cm\n• Time duration: Based on structure’s efficiency and aesthetics."
   },
   {
-    "ques": "THE ESSENCE OF COOL/ TATTOO MAKING",
-    "ans": "• No. of participants: 1 member\n• Tattoo making area- upper portion of arm (shoulder to elbow.)\n• Time limit: 30 minutes\n• Arrangements of all the materials have to be done by participants.\n• Participants are required to bring their partner on whose arm the tattoo will be designed.\n• Theme will be disclosed 30 minutes before the competition.\n• Mobile Phone is not allowed."
+    "ques": "WEB DESIGNING (Webweave)",
+    "ans": "• Individual participation\n• 2 rounds: Round 1: 30 questions (30 min), Round 2: Create a 3-page website (90 min)\n• Websites must be in HTML only."
   },
   {
-    "ques": "CREATE YOUR OWN HAIR JOURNEY/ HAIR STYLING",
-    "ans": "• No of participants: 1 member\n• Time period: 30 minutes\n• Participants are required to bring their partner on whom hair styling will be done.\n• Participants are required to bring their accessories and material.\n• Mobile Phone is not allowed."
+    "ques": "PROGRAMMING (Code Crusaders)",
+    "ans": "• Individual participation\n• 3 rounds: Round 1: Quiz (20 MCQs, 30 min), Round 2 & 3: Coding challenges\n• Languages: C, C++, Java, Python, MATLAB."
   },
   {
-    "ques": "RANGREZ/T- SHIRT PAINTING",
-    "ans": "• No of participants in a team: 1 member\n• Time period: 45 minutes\n• Theme will be disclosed on the spot.\n• Participants are required to bring their material except T shirt, which will be provided by the institute.\n• Mobile Phone is not allowed.\n\nNOTE: Maximum 15 participants are allowed which will be based on first come first basis."
+    "ques": "DRONE FLYING COMPETITION (Aero Ace)",
+    "ans": "• Team size: 1-2 members\n• Build and fly a drone through an obstacle course.\n• Judging based on time and number of obstacles cleared."
   },
   {
-    "ques": "CLICK OUT/ BEST SHOT (Still photography)",
-    "ans": "• No. of participants per team: 1 member\n• Participants have to register with their digital camera.\n• Photographs only from institute campus with dated________ should be submitted.\n• Participant must ensure that the registered photograph is taken by him/ her only else his/ her participation will be cancel.\n• Digital manipulations and adjustments are not allowed (no Photoshop or any software effects allowed).\n• Full Day (10:00 a.m. to 2:00 p.m.) will be given to the participants.\n• Participants have to submit their photograph up to 2:00 pm, otherwise it will not be accepted."
-  },
-  {
-    "ques": "BE THE STAR/ MOVIE MAKING",
-    "ans": "• No. of participants per team: 4 members (Maximum)\n• Participants should register with their digital camera.\n• Dated Videos only from institute campus should be submitted.\n• Digital manipulations and adjustments are not allowed (no Photoshop or any software effects allowed).\n• Full Day (9:30am to 2:00 pm) will be given to the participants.\n• Participants have to submit their photograph up to 2:00 pm, otherwise it will not be accepted."
-  },
-  {
-    "ques": "HOBBYHORSE/ HOBBY COLLECTION",
-    "ans": "• No of participants: 1 member.\n• Time period: 45 minutes.\n• Participants are required to bring their collection.\n• Judges would also do the questionnaire round regarding the collection they have bought."
-  },
-  {
-    "ques": "CARICATURE/ CARTOONING",
-    "ans": "• No of participants: 1 member.\n• Time period: 1 hour.\n• Item will be conducted on the spot on the given subject/ idea.\n• Participants shall bring their own material.\n• Institute will provide drawing paper/sheet.\n• Mobile Phone is not allowed."
-  },
-  {
-    "ques": "COLOUR THE CANVAS/ ON SPOT PAINTING",
-    "ans": "• No of participants: 1 member.\n• Time period: 1 hour.\n• Painting will be conducted on the spot on the theme given at the event center.\n• Painting can be done in oil, water, poster or pastel colours.\n• Candidate shall bring their own material like brushes, paints etc. Only the paper/ sheet will be provided by the institute.\n• Mobile Phone is not allowed."
+    "ques": "GAME OF CODES (Codecraft)",
+    "ans": "• Individual participation\n• 2 rounds: Round 1: Solve basic coding challenges, Round 2: Solve advanced problems (1.5 hours)\n• Focus on problem-solving and efficiency."
   }
-]
+];
+
 
 export default function techSchedule() {
     return (

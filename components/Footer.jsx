@@ -42,7 +42,7 @@ function Footer() {
                         <Link href="/events">
                             <p className="text-white text-[16px]">Events</p>
                         </Link>
-                        <Link href="https://chatgpt.com/">
+                        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf4Wc0E7Cagix2NQnzGaWpeHkqzTCTK0uiOwdii9BuvFp23SQ/viewform">
                             <p className="text-white text-[16px]">Register</p>
                         </Link>
                     </div>
@@ -51,6 +51,10 @@ function Footer() {
                     <div className="flex flex-col gap-4 items-center">
                         <p className="text-white text-2xl mb-2">Find us at:</p>
                         <div className="flex gap-4">
+
+                            <Link href="https://www.instagram.com/festinobeats13.0/">
+                                <FaInstagram className="text-gray-500 transition-all text-3xl hover:text-pink-600 hover:scale-90" />
+                            </Link>
                             <Link href="https://www.facebook.com/abesit.in">
 
                                 <FaFacebook className="text-gray-500 transition-all text-3xl hover:text-blue-500 hover:scale-90" />
@@ -59,9 +63,7 @@ function Footer() {
                                 <FaLinkedin className="text-gray-500 transition-all text-3xl hover:text-indigo-400 hover:scale-90" />
                             </Link>
 
-                            <Link href="https://www.instagram.com/abesit_ghaziabad/?hl=en">
-                                <FaInstagram className="text-gray-500 transition-all text-3xl hover:text-pink-600 hover:scale-90" />
-                            </Link>
+
                         </div>
                         <div className="flex items-center gap-1">
                             <MdAlternateEmail className="text-white" />

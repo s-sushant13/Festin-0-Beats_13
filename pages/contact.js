@@ -25,15 +25,7 @@ const chalet = localFont({
 })
 
 
-// const pricedown = localFont({
-//     src: './../assets/fonts/pricedown.ttf',
-// })
 
-// const chalet = localFont({
-//     src: './../assets/fonts/ChaletComprime-CologneSixty.ttf'
-// })
-
-// const chaletLondon = localFont({})
 
 
 const anton = Anton({
