@@ -68,7 +68,7 @@ function Footer() {
                         <div className="flex items-center gap-1">
                             <MdAlternateEmail className="text-white" />
                             <p className="text-white text-sm">
-                                info@abesit.in</p>
+                                festinobeats13@abesit.edu.in</p>
                         </div>
                     </div>
                 </div>

@@ -44,7 +44,14 @@ const studentCoordinators = [
 
 const facultyCoordinators = [
     
-    { name: "Dr. Aakansha Garg" , phone: "Assistant Professor - AS&H" },
+    { name: "Dr. Aakansha Garg" },
+    { name: "Dr. Mitul Sarkar" },
+    { name: "Dr. Neeti Srivastav" },
+    { name: "Dr. Nisha Singh" },
+    { name: "Prof. Kaushal Gupta" },
+    { name: "Prof. Arjun Singh" },
+    { name: "Prof. Neetu Narang Mahajan" },
+
  
 ]
 
@@ -84,9 +91,9 @@ const contact = () => {
 
 
 
-                <div className="flex justify-between py-8 md:flex-row flex-col md:gap-0 gap-10">
+                <div className="flex justify-between py-8 md:flex-row flex-col md:gap-0 gap-10 ">
                     <div className='grid md:grid-cols-2'>
-                        <div className={`flex flex-col text-md`}>
+                        <div className={`flex flex-col text-md mr-3`}>
                             <h2 className='text-xl font-semibold mb-2'>Student Co-ordinators</h2>
                             {studentCoordinators.map((item, index) => (
                                 <div key={index} className="mb-2">
@@ -97,11 +104,11 @@ const contact = () => {
                             }
 
                         </div>
-                        <div className={`flex flex-col text-md`}>
-                            <h2 className='text-xl font-semibold mb-2'>Faculty Co-ordinators</h2>
+                        <div className={`flex flex-col text-md `}>
+                            <h2 className='text-xl font-semibold mb-2 '>Faculty Co-ordinators</h2>
                             {facultyCoordinators.map((item, index) => (
                                 <div key={index} className="mb-2">
-                                    <span className="font-light">{item.name} :</span>
+                                    <span className="font-light">{item.name} </span>
                                     <a href={`tel:${item.phone}`} className="ml-2 text-blue-500 hover:underline">{item.phone}</a>
                                 </div>
                             ))
