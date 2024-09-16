@@ -2,7 +2,7 @@ export const mainTeam = [
     
     {
         name: "Tanishq Sharma",
-        img: "https://media.licdn.com/dms/image/v2/D5603AQHuRbcUuKwowg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724483705937?e=1731542400&v=beta&t=ziLDxyP2Uf6zQxV0JxX0xKqPiSoBrbldImEQfM9QVEw",
+        img: "https://media.licdn.com/dms/image/v2/D5603AQHE_pu5UZmgwA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726464155619?e=1732147200&v=beta&t=rlUxJ5txotVPiZPw3fB-uPBpRi6pgfkrT6kjXTvkLgE",
         linkedin: "https://www.linkedin.com/in/tanishqsharma01/",
     },
     {

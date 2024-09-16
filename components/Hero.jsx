@@ -11,6 +11,7 @@ import { FaLinkedin, FaTwitter, FaInstagram, FaDiscord } from "react-icons/fa6";
 
 import { Rubik_Mono_One } from "next/font/google";
 import { FaFacebook } from "react-icons/fa6";
+import CountdownTimer from "./countDown";
 
 
 const rubik = Rubik_Mono_One({
@@ -83,13 +84,17 @@ export default function Hero() {
                         </div>
                     </div>
 
-                    <div className="bg-black p-3 bg-opacity-40 backdrop-blur-lg rounded-lg mt-5 md:mt-0">
+                    {/* <div className="bg-black p-3 bg-opacity-40 backdrop-blur-lg rounded-lg mt-5 md:mt-0">
                         <div className={`flex justify-center text-center items-center ${rubik.className}`}>
                             <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold px-4 py-2">
                                 Registration<br />
                                 Open!!
                             </div>
                         </div>
+                    </div> */}
+
+                    <div className="bg-black p-3 bg-opacity-40 backdrop-blur-lg rounded-lg">
+                        <CountdownTimer />
                     </div>
                 </div>
 
