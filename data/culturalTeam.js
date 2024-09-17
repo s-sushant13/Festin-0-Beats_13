@@ -6,7 +6,7 @@ export const culturalTeam = [
     },
     {
         name: "Yuvraj Singh",
-        img: "https://media.licdn.com/dms/image/v2/D5603AQG5mdrMJhr3gQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726139701960?e=1731542400&v=beta&t=e5A4gB737MVOp3XRpvdxozi_MWOCkP7xiUsPK38YD1w",
+        img: "https://media.licdn.com/dms/image/v2/D5603AQHv4-Kbp9o2FA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726409706288?e=1732147200&v=beta&t=EzUx_ZgYLp7WWCLkZtIDJuAnSFYFrbr8_mp-YkvbO1k",
         linkedin: "https://www.linkedin.com/in/yuvraj-singh-2107-devil/",
     },
     
