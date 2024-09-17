@@ -3,6 +3,7 @@
 
 import ABESIT from "@/components/Abesit";
 import About from "@/components/About";
+import Guidelines from "@/components/Faq";
 import Glimpse from "@/components/Glimpse";
 import Hero from "@/components/Hero";
 import PastYearFacts from "@/components/PastFacts";
@@ -20,6 +21,7 @@ export default function Home() {
         <ABESIT/>
         <About/>
         <Glimpse/>
+        <Guidelines/>
         <PastYearFacts/>
       </main>
     </>

@@ -44,7 +44,7 @@ const studentCoordinators = [
 
 const facultyCoordinators = [
     
-    { name: "Dr. Aakansha Garg" },
+    { name: "Dr. Aakansha Garg" , phone: "+91 9999081932"},
     { name: "Dr. Mitul Sarkar" },
     { name: "Dr. Neeti Srivastav" },
     { name: "Dr. Nisha Singh" },
