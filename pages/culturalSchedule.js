@@ -39,10 +39,7 @@ const data = [
     "ques": "Battle of Bands",
     "ans": "• Bands must register 3 days before the event.\n• Bands should arrive one hour before the event.\n• Songs must be Sufi; no metal or hard rock allowed.\n• Band size: Maximum 10 members\n• Duration: Maximum 20 minutes\n• No offensive words or actions allowed.\n• Committee can cancel any performance deemed inappropriate.\n• The Band members will not be granted permission to enter the audience in between performance."
   },
-  {
-    "ques": "BE THE STAR/ MOVIE MAKING",
-    "ans": "•	No. of participants per team: 4 members (Maximum)\n• 	Participants should register with their digital camera. .\n• Duration of video must be 3 to 5 minutes..\n• Dated Videos only from institute campus should be submitted.\n• Digital manipulations and adjustments are not allowed (no Photoshop or any software effects allowed).\n• Full Day (9:30am to 2:00 pm) will be given to the participants.\n• 	Participants have to submit their movie clip up to 2:00 pm, otherwise it will not be accepted.\n•"
-  },
+  
 ];
 
   

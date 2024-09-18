@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import localFont from 'next/font/local';
 import { Anton } from 'next/font/google';
+import Guidelines from '@/components/Faq';
 
 // const pricedown = localFont({
 //   src: './../assets/fonts/pricedown.ttf',
@@ -27,6 +28,7 @@ const page = () => {
 
     <div>
         <div className='mt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 md:mt-32 my-6 '>
+
             <div className={`text-5xl `}>
                 Our Events
             </div>
@@ -67,6 +69,8 @@ const page = () => {
                     </div>
                 </div>
             ))}
+
+             <Guidelines/>
         </div>
     </div>
 

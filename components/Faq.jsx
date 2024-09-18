@@ -11,11 +11,12 @@ export default function Guidelines() {
         "Student core committee members and student coordinators are not allowed to participate.",
         "A student can participate in a maximum of 4 events in each category (Cultural, Technical, Fine Arts & Photography, Literary).",
         "Volunteers (Event Managers) are permitted to participate in events other than their own event.",
+        " Registration ends on 1st October 2024.",
     ];
 
     return (
         <div className="bg-black text-white p-6 md:p-8 rounded-lg mt-4">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Event Guidelines</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Genral Guidelines</h2>
             <ul className="list-disc pl-6 space-y-4">
                 {guidelines.map((guideline, index) => (
                     <li key={index} className="flex items-start space-x-3 font-semibold text-lg">

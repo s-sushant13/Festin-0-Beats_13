@@ -40,7 +40,7 @@ const About = () => {
             id="about"
         >
             <div className="flex">
-                <Heading>What is Feastin-O-Beats 13.0 ?</Heading>
+                <Heading>What is Festin-O-Beats 13.0 ?</Heading>
             </div>
 
             <div className="flex justify-center w-full px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
