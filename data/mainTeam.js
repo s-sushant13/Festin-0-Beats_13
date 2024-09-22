@@ -20,16 +20,6 @@ export const mainTeam = [
     },
     
     {
-        name: "Arjun Dhawan",
-        img: "https://media.licdn.com/dms/image/v2/D4D03AQGGz_HUQgyPDg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1693031039739?e=1731542400&v=beta&t=QcSAjunj_ZTL6aX7fP3CM_H55r2fQzqqM3O_cgyeuDg",
-        linkedin: "https://www.linkedin.com/in/arjun-dhawan-160a2b221/",
-    },
-    
-    
-
-    
-    
-    {
         name: "Anshul Shekhar",
         img: "https://media.licdn.com/dms/image/v2/D5603AQHRc4iHDC2aXw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1710574228542?e=1731542400&v=beta&t=gif4Vm_hh2_eBCZvYgR_VAeDnVU_1IfGQCDDqOYKGos",
         linkedin: "https://www.linkedin.com/in/anshul-shekhar-8a2921221/",
